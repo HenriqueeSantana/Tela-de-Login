@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="./assets/style/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-side">
+            <img src="./assets/img/Code snippets-amico.png" alt="Imagem ilustrativa">
+        </div>
+        <div class="form-side">
+            <h1>Bem-vindo de volta!</h1>
+            <p>Entre na sua conta para continuar</p>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+            <p class="links">
+                <a href="#">Esqueceu a senha?</a> | <a href="/casdatre.html">Cadastre-se</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="./js/login.js"></script> <!-- Vinculando o arquivo JavaScript -->
+</body>
+</html>
